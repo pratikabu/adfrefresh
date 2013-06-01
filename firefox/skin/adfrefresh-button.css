@@ -1,0 +1,7 @@
+#adfrefresh-button {
+	list-style-image: url("chrome://adfrefresh/skin/adfrefresh-24.png");
+}
+
+toolbar[iconsize="small"] #adfrefresh-button {
+	list-style-image: url("chrome://adfrefresh/skin/adfrefresh-16.png");
+}
