@@ -36,7 +36,7 @@ var adfrefreshjs = {
 			document.persist(toolbar.id, "currentset");
 			
 			if (toolbarId == "addon-bar")
-			toolbar.collapsed = false;
+				toolbar.collapsed = false;
 		}
 	},
 

@@ -8,8 +8,9 @@
 		<em:name>ADF Refresh</em:name>
 		<em:description>Refersh any ADF page removing all its parameters.</em:description>
 		<em:creator>Pratik Soni</em:creator>
-		<em:homepageURL>http://pratikabu.users.sourceforge.net</em:homepageURL>
+		<em:homepageURL>http://pratikabu.users.sourceforge.net/oracletools</em:homepageURL>
 		<em:iconURL>chrome://adfrefresh/skin/adfrefresh-48.png</em:iconURL>
+		<em:icon64URL>chromechrome://adfrefresh/skin/adfrefresh-64.png</em:icon64URL>
 		<em:unpack>false</em:unpack>
 		
 		<!-- Firefox -->
