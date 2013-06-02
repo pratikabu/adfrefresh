@@ -6,7 +6,7 @@
 		<em:type>2</em:type>
 		
 		<em:name>ADF Refresh</em:name>
-		<em:description>Refersh any ADF page removing all its parameters.</em:description>
+		<em:description>Refresh any ADF page removing all its parameters.</em:description>
 		<em:creator>Pratik Soni</em:creator>
 		<em:homepageURL>http://pratikabu.users.sourceforge.net/oracletools</em:homepageURL>
 		<em:iconURL>chrome://adfrefresh/skin/adfrefresh-48.png</em:iconURL>
@@ -18,7 +18,7 @@
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>4.0b1</em:minVersion>
-				<em:maxVersion>24.0a1</em:maxVersion>
+				<em:maxVersion>24.0</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 	</Description>
