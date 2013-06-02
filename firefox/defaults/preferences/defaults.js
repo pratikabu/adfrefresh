@@ -1,0 +1,1 @@
+pref('extensions.paadfrefresh.updateTracker', 0);
