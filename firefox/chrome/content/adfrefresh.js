@@ -26,7 +26,7 @@ var adfrefreshjs = {
 			// If no afterId is given, then append the item to the toolbar
 			var before = null;
 			if (afterId) {
-				let elem = document.getElementById(afterId);
+				var elem = document.getElementById(afterId);
 				if (elem && elem.parentNode == toolbar)
 					before = elem.nextElementSibling;
 			}
