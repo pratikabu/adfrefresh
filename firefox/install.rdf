@@ -2,11 +2,11 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>adfrefresh@pratikabu.com</em:id>
-		<em:version>1.0</em:version>
+		<em:version>1.1</em:version>
 		<em:type>2</em:type>
 		
 		<em:name>ADF Refresh</em:name>
-		<em:description>Refresh any ADF page removing all its parameters.</em:description>
+		<em:description>Refresh any ADF page removing all its parameters. Shortcut (Alt+F5).</em:description>
 		<em:creator>Pratik Soni</em:creator>
 		<em:homepageURL>http://pratikabu.users.sourceforge.net/oracletools</em:homepageURL>
 		<em:iconURL>chrome://adfrefresh/skin/adfrefresh-48.png</em:iconURL>

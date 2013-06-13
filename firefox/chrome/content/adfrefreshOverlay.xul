@@ -5,6 +5,10 @@
 	<!--<script type="text/javascript" src="chrome://adfrefresh/content/adfrefresh.js"/>-->
 	<script src="adfrefresh.js"/>
 	
+	<keyset>
+		<key id="adfrefresh-key" modifiers="alt" keycode="VK_F5" />
+	</keyset>
+	
 	<!-- This is for the toolbar in Web -->
 	<toolbarpalette id="BrowserToolbarPalette">
 		<toolbarbutton id="adfrefresh-button" label="&fr_label;"
@@ -12,4 +16,9 @@
 				tooltiptext="&fr_tooltip;"
 				oncommand="adfrefreshjs.refresh()" />
 	</toolbarpalette>
+	
+	<menupopup id="menu_ToolsPopup">
+		<menuitem id="adfrefresh-menu" label="&fr_label;" key="adfrefresh-key"
+				class="menuitem-iconic" oncommand="adfrefreshjs.refresh()" />
+	</menupopup>
 </overlay>
