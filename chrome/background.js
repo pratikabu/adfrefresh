@@ -1,4 +1,4 @@
-chrome.browserAction.onClicked.addListener(function(tab) {
+chrome.action.onClicked.addListener(function(tab) {
 	var currURL = tab.url;
 	if(!currURL) {// no url on the page
 		return;

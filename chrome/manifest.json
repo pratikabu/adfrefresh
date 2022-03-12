@@ -1,12 +1,11 @@
 {
 	"name": "ADF Refresh",
-	"version": "1.0",
-	"manifest_version": 2,
-	"description": "Refresh any ADF page removing all its parameters.",
-	"homepage_url": "http://pratikabu.users.sourceforge.net/oracletools",
+	"version": "2.0",
+	"manifest_version": 3,
+	"description": "Refresh any Oracle ADF page by removing all its parameters.",
+	"homepage_url": "https://github.com/pratikabu/adfrefresh",
 	"background": {
-		"scripts": ["background.js"],
-		"persistent": false
+		"service_worker": "background.js"
 	},
 
 	"icons": {
@@ -15,14 +14,16 @@
 		"128": "icons/adfrefresh-128.png"
 	},
 	
-	"browser_action": {
+	"action": {
 		"default_icon": {
-			"19": "icons/adfrefresh-24.png"
+			"16": "icons/adfrefresh-16.png",
+			"24": "icons/adfrefresh-24.png",
+			"48": "icons/adfrefresh-48.png"
 		},
-		"default_title": "Refresh ADF pages with ease :)"
+		"default_title": "Remove query parameters and refresh"
 	},
 	
 	"permissions": [
-		"tabs"
+		"activeTab"
 	]
 }
